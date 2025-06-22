@@ -20,7 +20,7 @@ public class TerrainGenPrototype : ModuleRules
 			"UMG"
 		});
 
-		PrivateDependencyModuleNames.AddRange(new string[] { });
+		PrivateDependencyModuleNames.AddRange(new string[] { "ProceduralMeshComponent" });
 
 		PublicIncludePaths.AddRange(new string[] {
 			"TerrainGenPrototype",
